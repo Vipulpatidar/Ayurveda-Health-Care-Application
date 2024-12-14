@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoyoga1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/yogaposes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top 7 Yoga Poses"
+                    android:textColor="@color/greyspace"
+                    android:textSize="20dp" />
+
+              <LinearLayout
+                  android:layout_width="@dimen/_300sdp"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:padding="30dp"
+                      android:background="@drawable/bg4"
+                      android:text="Here are seven popular yoga exercises that can help improve flexibility, strength, balance, and overall well-being:
+
+Downward Facing Dog (Adho Mukha Svanasana): This pose stretches the hamstrings, calves, and spine while strengthening the arms, shoulders, and wrists. It also improves circulation and can help relieve stress and anxiety.
+
+Warrior II (Virabhadrasana II): This pose strengthens the legs, hips, and core while improving balance and concentration. It can also help open the chest and lungs, and stretch the shoulders and arms.
+
+Tree Pose (Vrikshasana): This balancing pose strengthens the legs and core while improving balance and focus. It can also help stretch the hips, groin, and thighs.
+
+Triangle Pose (Trikonasana): This pose stretches the hamstrings, hips, and spine while strengthening the legs, ankles, and core. It can also help improve digestion and relieve stress and anxiety.
+
+Bridge Pose (Setu Bandha Sarvangasana): This pose strengthens the back, glutes, and legs while stretching the chest, neck, and spine. It can also help improve circulation and relieve stress and mild depression.
+
+Child's Pose (Balasana): This relaxing pose stretches the hips, thighs, and ankles while gently releasing tension in the back, neck, and shoulders. It can also help calm the mind and promote relaxation.
+
+Cobra Pose (Bhujangasana): This pose strengthens the back, arms, and shoulders while stretching the chest and spine. It can also help improve posture and relieve stress and fatigue.
+
+
+
+"
+                      android:textColor="@color/black"
+                      android:textSize="20dp" />
+              </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

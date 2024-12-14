@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Herbal">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/backtohome3"
+                    android:layout_width="39dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/backd" />
+
+                <ImageView
+                    android:layout_width="59dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/search" />
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="696dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/herbal"
+                    android:layout_width="105dp"
+                    android:layout_height="78dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="30dp"
+
+                    android:background="@drawable/backgnd"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/herbal" />
+
+
+                <TextView
+                    android:id="@+id/herbaltext"
+                    android:layout_width="107dp"
+                    android:layout_height="49dp"
+                    android:layout_below="@id/herbal"
+                    android:layout_marginLeft="140dp"
+                    android:text="Herbal"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:padding="2dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:padding="10dp"
+                    android:layout_below="@id/herbaltext"
+                    android:text="Ayurveda is the world's oldest holistic healing system that focuses more on healthy living than just the treatment of diseases. It aims to harmonise your mind, body, and spirit with the universe. Ayurveda believes all humans are made up of 5 basic elements:
+Space, Air, Water, Fire, and Earth. These elements combine to form doshas, known as Vata, Kapha, and Pitta.
+Each individual has a unique ratio, where one of your doshas might be more dominant than the others, this defines your ayurvedic constitution. In simple terms, if any factor disrupts the natural equilibrium, you feel sick. Our Ayurveda Doctor Consultation helps you understand your dosha and treats you accordingly for your ailment.
+Based on the idea that disease is caused by an imbalance or stress in a person's consciousness, Ayurveda promotes certain lifestyle interventions and natural therapies to restore balance to the body, mind, spirit, and environment. Internal purification is the first step in Ayurvedic treatment, followed by a special diet, herbal remedies, massage therapy, yoga, and meditation...."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+
+
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="40dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_gravity="center"
+                        android:padding="20dp"
+                        android:src="@drawable/a1" />
+
+                    <ImageView
+                        android:id="@+id/i2"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a2" />
+
+                    <ImageView
+                        android:id="@+id/i3"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i2"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a3" />
+
+                    <ImageView
+                        android:id="@+id/i4"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i3"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a" />
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Articles"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start">
+
+                    <ImageView
+                        android:id="@+id/healthysleep"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:padding="20dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/healthysleep" />
+
+
+                    <TextView
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/healthysleep"
+                        android:layout_marginTop="-38dp"
+                        android:text="Healthy sleep  importance"
+android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:id="@+id/Sito"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@+id/healthysleep"
+                        android:padding="35dp"
+                        android:src="@drawable/obecity" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Sito"
+                        android:layout_toRightOf="@id/healthysleep"
+                        android:layout_marginTop="-25dp"
+                        android:text="Overcoming obecity"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+
+
+
+
+
+
+
+
+                    <ImageView
+                        android:id="@+id/diabeties"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:padding="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@+id/healthysleep"
+                        android:src="@drawable/diabeties" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/diabeties"
+                        android:layout_marginTop="-32dp"
+                        android:text="Fighting Diabities"
+                        android:padding="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/Homoepathy"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="20dp"
+                        android:padding="20dp"
+                        android:layout_toRightOf="@+id/diabeties"
+                        android:layout_below="@+id/Sito"
+                        android:src="@drawable/homeo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Homoepathy"
+                        android:layout_marginTop="-20dp"
+                        android:layout_toRightOf="@id/diabeties"
+                        android:text="What is Homoepathy"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/Benefitsofayurveda"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/Homoepathy"
+                        android:src="@drawable/ayurveda11" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefits of Ayurveda"
+                        android:layout_marginLeft="100dp"
+                        android:textSize="22dp"
+                        android:layout_below="@id/Benefitsofayurveda"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

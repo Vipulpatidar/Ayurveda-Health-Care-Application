@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/dustypink"
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoayurveda4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ayurveda11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benefits of Ayurveda"
+                    android:textColor="@color/greyspace"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Ayurveda is an ancient Indian system of medicine that emphasizes the balance between body, mind, and spirit to promote overall health and wellbeing. Ayurveda offers a holistic approach to healthcare, which includes diet and lifestyle recommendations, herbal remedies, yoga, and meditation. Here are some of the benefits of Ayurveda:
+
+Improves Digestion: Ayurveda offers numerous remedies for digestive issues such as constipation, bloating, and acid reflux. By incorporating Ayurvedic principles into their diet and lifestyle, individuals can improve their digestive function and overall gut health.
+
+Reduces Stress and Anxiety: Ayurvedic practices such as yoga, meditation, and pranayama (breathing exercises) are known to reduce stress and anxiety. These practices help individuals to calm their mind and improve their overall mental wellbeing.
+
+Boosts Immunity: Ayurveda offers a variety of herbal remedies that can help to boost the immune system. These remedies help to protect the body against infections and diseases, and also promote overall vitality and wellbeing.
+
+Supports Hormonal Balance: Ayurvedic herbs and practices can help to regulate hormone levels in the body. This is particularly beneficial for women who are experiencing hormonal imbalances, such as menstrual irregularities or menopause.
+
+Promotes Healthy Aging: Ayurveda offers numerous remedies and lifestyle practices that can help to slow down the aging process. These include the use of anti-aging herbs and practices such as yoga and meditation, which help to reduce stress and improve overall vitality.
+
+Improves Sleep: Ayurveda offers a variety of remedies that can help to improve sleep quality. These include herbal teas, oils, and massage therapies, as well as lifestyle practices such as meditation and yoga.
+
+Supports Mental Health: Ayurveda recognizes the close relationship between the mind and body and offers numerous remedies and practices to support mental health. These include yoga, meditation, and herbs that can help to balance mood and reduce anxiety.
+
+Overall, Ayurveda offers a comprehensive approach to healthcare that promotes overall wellbeing and balance in the body, mind, and spirit. By incorporating Ayurvedic principles into their daily lives, individuals can experience numerous benefits for their health and wellbeing."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

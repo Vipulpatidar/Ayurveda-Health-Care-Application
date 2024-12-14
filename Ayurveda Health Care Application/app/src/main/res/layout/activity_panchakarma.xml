@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/dustypink"
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoayurveda3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/panchakarma" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHat is Panchakarma"
+                    android:textColor="@color/greyspace"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="941dp"
+                    android:padding="20dp"
+                    android:text="Panchakarma is a traditional Ayurvedic therapy that aims to purify and rejuvenate the body and mind. The therapy involves a series of detoxification treatments that are designed to eliminate toxins and restore the body's natural balance. Panchakarma is typically carried out in a specialized Ayurvedic clinic or wellness center, under the guidance of a trained Ayurvedic practitioner.
+
+There are five main stages in the Panchakarma process:
+
+Purva Karma: This is the preparatory stage, which involves preparing the body for the detoxification process. This may include a special diet, herbal medicines, and massage therapies.
+
+Vamana: This stage involves inducing vomiting to eliminate excess mucus and toxins from the upper respiratory tract and digestive system. This is typically done by administering herbal medicines and a special diet that promotes vomiting.
+
+Virechana: This stage involves inducing purgation to eliminate toxins from the liver and gallbladder. This is typically done by administering herbal medicines and a special diet that promotes bowel movements.
+
+Basti: This stage involves administering herbal enemas to cleanse the colon and eliminate toxins from the body. This is typically done using specialized equipment and a combination of herbal medicines and oils.
+
+Nasya: This stage involves administering herbal oils or powders through the nose to cleanse the nasal passages and sinuses. This is typically done using a small dropper or special nasal spray.
+
+Throughout the Panchakarma process, patients are encouraged to follow a strict diet and lifestyle regime, which may include fasting, meditation, and gentle exercise. The aim of this regime is to support the body's natural healing process and promote overall wellbeing.
+
+Panchakarma is believed to have numerous health benefits, including improved digestion, better sleep, increased energy levels, reduced stress and anxiety, and improved immunity. However, it is important to note that Panchakarma should only be carried out under the guidance of a trained Ayurvedic practitioner, as it can be quite intense and may not be suitable for everyone."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

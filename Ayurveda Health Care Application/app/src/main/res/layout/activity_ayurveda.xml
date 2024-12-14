@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ayurveda">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/backtohome"
+                    android:layout_width="39dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/backd" />
+
+                <ImageView
+                    android:layout_width="59dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/search" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="567dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Ayurveda"
+                    android:layout_width="105dp"
+                    android:layout_height="78dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="30dp"
+                   android:background="@drawable/backgnd"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/ayurveda" />
+
+
+                <TextView
+                    android:id="@+id/ayurvedatext"
+                    android:layout_width="107dp"
+                    android:layout_height="49dp"
+                    android:layout_below="@id/Ayurveda"
+
+                    android:layout_marginLeft="130dp"
+
+                    android:padding="2dp"
+                    android:text="Ayurveda"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="15dp"
+        android:layout_below="@id/ayurvedatext"
+    android:background="@drawable/bg4"
+        android:padding="20dp"
+        android:text="Ayurveda is the world's oldest holistic healing system that focuses more on healthy living than just the treatment of diseases. It aims to harmonise your mind, body, and spirit with the universe. Ayurveda believes all humans are made up of 5 basic elements:
+Space, Air, Water, Fire, and Earth. These elements combine to form doshas, known as Vata, Kapha, and Pitta.
+Each individual has a unique ratio, where one of your doshas might be more dominant than the others, this defines your ayurvedic constitution. In simple terms, if any factor disrupts the natural equilibrium, you feel sick. Our Ayurveda Doctor Consultation helps you understand your dosha and treats you accordingly for your ailment.
+Based on the idea that disease is caused by an imbalance or stress in a person's consciousness, Ayurveda promotes certain lifestyle interventions and natural therapies to restore balance to the body, mind, spirit, and environment. Internal purification is the first step in Ayurvedic treatment, followed by a special diet, herbal remedies, massage therapy, yoga, and meditation...."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+
+
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="40dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:background="@drawable/bg3"
+                        android:layout_gravity="center"
+                        android:padding="20dp"
+                        android:src="@drawable/a1" />
+
+                    <ImageView
+                        android:id="@+id/i2"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a2" />
+
+                    <ImageView
+                            android:id="@+id/i3"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i2"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a3" />
+
+                    <ImageView
+                        android:id="@+id/i4"
+                        android:layout_width="368dp"
+                        android:layout_height="198dp"
+                        android:layout_toRightOf="@id/i3"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:padding="20dp"
+                        android:src="@drawable/a" />
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Articles"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start">
+
+                        <ImageView
+                            android:id="@+id/feverhomeremedy"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+
+                            android:padding="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/fevern" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/feverhomeremedy"
+                            android:layout_marginTop="-32dp"
+                            android:text="Fever Home Remedy"
+
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/Sitopaldai"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_toRightOf="@+id/feverhomeremedy"
+                            android:padding="35dp"
+                            android:src="@drawable/siddha" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Sitopaldai"
+                        android:layout_toRightOf="@id/feverhomeremedy"
+                            android:layout_marginTop="-25dp"
+                            android:text="Benifits of SITOPAlDI"
+                            android:textColor="@color/black"
+                            android:textSize="19dp" />
+
+
+
+
+
+
+
+
+
+                    <ImageView
+                        android:id="@+id/Prakriti"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:padding="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@+id/feverhomeremedy"
+                        android:src="@drawable/prakriti" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Prakriti"
+                        android:layout_marginTop="-32dp"
+                        android:text="What is PRAKRITI"
+                        android:padding="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/panchakarma"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="20dp"
+                        android:padding="20dp"
+                        android:layout_toRightOf="@+id/Prakriti"
+                        android:layout_below="@+id/Sitopaldai"
+                        android:src="@drawable/panchakarma" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/panchakarma"
+                    android:layout_marginTop="-20dp"
+                      android:layout_toRightOf="@id/Prakriti"
+                        android:text="What is Panchakarma"
+
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+
+
+
+
+
+
+
+                        <ImageView
+                            android:id="@+id/boa"
+                            android:layout_width="match_parent"
+                            android:layout_height="230dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_below="@id/panchakarma"
+                            android:src="@drawable/ayurveda11" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Benefits of Ayurveda"
+                            android:layout_marginLeft="100dp"
+                            android:textSize="22dp"
+                            android:layout_below="@id/boa"
+                            android:textColor="@color/black"/>
+
+                    </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+//
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

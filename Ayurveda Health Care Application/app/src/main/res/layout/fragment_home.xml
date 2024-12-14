@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="525dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:id="@+id/userdetail"
+                    android:layout_width="145dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="2dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/search"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/searchlatest"
+                    app:shapeAppearanceOverlay="@style/Circular" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/vecto" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/arrow"
+                    app:shapeAppearanceOverlay="@style/Circular" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+
+                android:gravity="center">
+
+                <ViewFlipper
+                    android:id="@+id/Recyclerview"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+android:autoStart="true"
+                    android:flipInterval="5000"
+                    android:inAnimation="@android:anim/slide_in_left"
+                    android:outAnimation="@android:anim/slide_in_right"
+                    android:orientation="horizontal"
+                    android:scrollbars="horizontal">
+<ImageView
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_160sdp"
+    android:src="@drawable/ayurveda11"/>
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_160sdp"
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_160sdp"
+                        android:src="@drawable/a2"/>
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_160sdp"
+                        android:src="@drawable/a2"/>
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_160sdp"
+                        android:src="@drawable/h2"/>
+                </ViewFlipper>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+
+                    android:gravity="start"
+                    android:text="      THEREPIES"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="vertical">
+
+
+                <HorizontalScrollView
+                    android:id="@+id/hv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp">
+
+
+                        <ImageView
+                            android:id="@+id/ayurveda"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/backgnd"
+                            android:foregroundGravity="center"
+                            android:padding="8dp"
+
+                            android:src="@drawable/ayurveda" />
+
+
+                        <TextView
+                           android:id="@+id/ayurvedatext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ayurveda"
+                            android:layout_toLeftOf="@id/homepathy"
+                            android:text="AYURVEDA"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/homepathy"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/ayurveda"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/homoepathy" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="58dp"
+
+                            android:layout_below="@id/homepathy"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/ayurveda"
+                            android:text="HOMEOPATH"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/yoga"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_toRightOf="@+id/homepathy"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/yoga" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/yoga"
+                            android:layout_marginLeft="30dp"
+
+                            android:layout_toRightOf="@id/homepathy"
+                            android:text="  YOGA"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/meditation"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/yoga"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/meditation" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/meditation"
+
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/yoga"
+                            android:text="MEDITATION"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/physio"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/meditation"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/fdo" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/physio"
+
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/meditation"
+                            android:text="Physiotherapy"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/naturopathy"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:background="@drawable/backgnd"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/physio"
+                            android:padding="8dp"
+                            android:src="@drawable/naturopathy" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/naturopathy"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/physio"
+                            android:text="Naturopathy"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:orientation="vertical">
+
+
+                <HorizontalScrollView
+                    android:id="@+id/hv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp">
+
+
+                        <ImageView
+                            android:id="@+id/phychology"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:padding="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/backgnd"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/phychology" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/phychology"
+                            android:layout_toLeftOf="@id/nutrition"
+                            android:text="Physchology"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/nutrition"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/phychology"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/nutrition" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_below="@id/nutrition"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/phychology"
+                            android:text="Nutrition"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/supplement"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_toRightOf="@+id/nutrition"
+                            android:background="@drawable/backgnd"
+                            android:padding="8dp"
+                            android:src="@drawable/supliments" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/supplement"
+                            android:layout_marginLeft="30dp"
+
+                            android:layout_toRightOf="@id/nutrition"
+                            android:text="Supllement"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/herbal"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="30dp"
+                        android:foregroundGravity="clip_horizontal"
+                            android:padding="8dp"
+                            android:layout_toRightOf="@id/supplement"
+                            android:background="@drawable/backgnd"
+                            android:src="@drawable/herbal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/herbal"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/supplement"
+                            android:text="    Herbal"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+
+                        <ImageView
+                            android:id="@+id/unani"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:padding="8dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/herbal"
+                            android:background="@drawable/backgnd"
+
+                            android:src="@drawable/unani" />
+
+
+                        <ImageView
+                            android:id="@+id/siddha"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:padding="8dp"
+                            android:background="@drawable/backgnd"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/unani"
+                            android:src="@drawable/siddha" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/siddha"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@id/unani"
+                            android:text="Siddha"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="135dp"
+                        android:layout_height="158dp"
+
+               android:background="@drawable/backrnd2"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/weightgain"
+                            android:layout_width="158dp"
+                            android:layout_height="147dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="18dp"
+
+                            android:foregroundGravity="center"
+                            android:padding="25dp"
+                            android:src="@drawable/weightgain" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="178dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Weight Gain"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="212dp"
+                        android:layout_height="191dp"
+                        android:background="@drawable/backrnd2"
+                        android:gravity="center" />
+
+                    <ImageView
+                        android:id="@+id/weightloss1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="23dp"
+                        android:foregroundGravity="center"
+                        android:src="@drawable/weigtrhloss" />
+
+                    <TextView
+                        android:layout_width="178dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/weightloss1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_marginTop="-150dp"
+                        android:text="Weight Loss"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

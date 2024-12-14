@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/dustypink"
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoayurveda1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/siddha" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benefits of SITOPALADI"
+                    android:textColor="@color/greyspace"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="941dp"
+                    android:padding="20dp"
+                    android:text="Explore the goodness of Ayurveda for a better life
+What is Sitpaladi?
+Sitopaladi is an Ayurvedic churna that is made of five ingredients. It is very effective for different respiratory conditions, respiratory diseases, allergies and also digestive conditions. Overall, the churna strengthens the immunity and is good for the respiratory system as it also helps improve lung capacity.
+The ingredients used in the making of Sitopaladi are cinnamon, cardamom, pepper and vankshalochana, which is an extract from the bamboo tree. These are mixed in different proportions to derive the necessary properties out of the mixture
+Health benefits of Sitapaladi
+Here are the topmost health benefits of this churna:
+                                                 1. Relieves cough
+As Sitpaladi can help reduce Kapha, it is very effective for relieving cough. The dryness in the throat can also be significantly reduced and this, in turn, helps in managing cough. For this particular result, the churna can be taken with ghee or honey.
+It is useful for both dry cough and wet cough. It can also relieve headaches that are caused by sinusitis.
+                                                                2.Prevents allergies
+t is shown that Sitapaladi comes with antihistamine properties, which makes it a preference to prevent and treat allergies and allergic reactions in the body.
+                                                                   3. Decreases bloating
+Sitapaladi can help manage gas in the system and also increase appetite. It reduces bloating as it carries carminative properties, which prevents the formation of the gas tract and lets it pass. It also promotes digestion and eases the process in its entirety.
+4. Better respiratory system
+There are two aspects of the churna that enable it to strenathen the respirator svstem. The first aspect is that it"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

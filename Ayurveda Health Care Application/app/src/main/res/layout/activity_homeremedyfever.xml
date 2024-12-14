@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/peach"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoayurveda"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/peach"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/backgnd"
+                android:src="@drawable/homeremedyfever" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEVER HOME REMEDY"
+                android:textColor="@color/greyspace"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="941dp"
+                android:padding="20dp"
+                android:text="@string/when_there_is_an_infection_of_any_sort_be_it_bacterial_viral_or_parasitic_fever_is_a_natural_response_to_it_from_within_it_is_often_noticed_when_there_is_a_rise_in_body_temperature_and_related_uneasiness_like_muscle_ache_fatigue_or_feeling_cold_the_natural_body_temperature_ranges_from_99_5_f_to_100_9_f_or_between_37_5_c_to_38_3_c_when_there_is_fever_there_is_a_spike_in_body_temperature_and_this_is_one_of_the_common_indicators_of_the_same_with_minute_differences_based_on_the_body_type_it_is_highly_recommended_to_consult_a_doctor_if_the_fever_persists_for_more_than_3_days_nevertheless_ayurvedic_doctors_suggest_a_few_home_remedies_that_can_bring_down_the_temperature_and_help_reduce_the_fever_1_garlic_garlic_can_promote_sweating_which_in_turn_flushes_out_toxins_from_the_body_effectively_garlic_is_usually_used_in_everyday_cooking_in_most_households_and_there_are_multiple_ways_of_using_garlic_to_stay_healthy_as_part_of_everyday_meals_the_first_way_to_use_garlic_is_by_crushing_the_cloves_mixing_them_up_with_oil_in_the_household_and_applying_the_mixture_on_the_feet_this_can_be_applied_during_the_night_before_going_to_sleep_and_there_would_be_a_considerable_difference_by_morning_the_second_way_to_use_garlic_is_by_drinking_it_a_simple_mixture_can_be_prepared_by_finely_mincing_garlic_and_adding_it_to_warm_water_you_can_let_the_garlic_stay_in_for_a_few_minutes_in_the_concoction_before_you_drink_it_up_it_can_be_consumed_up_to_two_times_a_day_garlic_has_antibacterial_and_antiviral_properties_other_than_the_several_other_health_benefits_it_possesses_2_basil_basic_is_usually_grown_in_every_indian_household_and_is_highly_accessible_basil_tea_is_one_of_the_most_common_home_remedies_for_fever_add_basil_to_boiling_water_and_crush_a_little_ginger_with_it_once_the_concoction_feels_stronger_it_can_be_poured_to_the_cup_with_a_little_honey_to_add_taste_to_it"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

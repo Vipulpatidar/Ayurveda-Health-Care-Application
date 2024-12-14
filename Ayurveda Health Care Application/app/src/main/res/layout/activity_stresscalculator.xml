@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stresscalculator">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           
+      
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:gravity="center_vertical">
+
+           <ImageView
+               android:id="@+id/backtohealthtools"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_marginLeft="25dp"
+               android:src="@drawable/backd" />
+
+
+       </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="69dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="STRESS TEST"
+                   android:gravity="center"
+                   android:textColor="@color/black"
+                   android:textSize="20dp"
+                   android:textStyle="bold"/>
+
+
+           </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I feel tired"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+
+            android:layout_marginLeft="16dp"
+
+                >
+
+               <TextView
+
+                  android:id="@+id/seldon11"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                  android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+<TextView
+    android:id="@+id/sometimes11"
+    android:layout_width="92dp"
+    android:layout_height="match_parent"
+    android:layout_toRightOf="@+id/seldon11"
+    android:gravity="center"
+    android:textColor="@color/greyspace"
+    android:background="@color/yellow"
+    android:text="Sometimes"
+    android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often11"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes11"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often11"
+                   android:gravity="center"
+                 android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="320dp"
+                   android:layout_height="wrap_content"
+                   android:text="I find it hard to make decision"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+               >
+
+               <TextView
+
+                   android:id="@+id/seldon1"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes1"
+                   android:layout_width="92dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon1"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often1"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes1"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often1"
+                   android:gravity="center"
+                android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar2"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="My heart races and I find myself breathing rapidly"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+              >
+
+               <TextView
+
+                   android:id="@+id/seldon2"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes2"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon2"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often2"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes2"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often2"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar33"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I eat too much or too little"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+               >
+
+               <TextView
+
+                   android:id="@+id/seldon3"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes3"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon3"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often3"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes3"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often3"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar3"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I get headaches"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+             >
+
+               <TextView
+
+                   android:id="@+id/seldon4"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes4"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon4"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often4"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes4"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often4"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar4"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I think about problem again and again"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+               android:layout_marginTop="5dp">
+
+               <TextView
+
+                   android:id="@+id/seldon5"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes5"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon5"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often5"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes5"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often5"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar5"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I use caffeine or nicotine more than usual"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+            >
+
+               <TextView
+
+                   android:id="@+id/seldon7"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes7"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon7"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often7"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes7"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often7"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar7"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I feel overwhelmed and helpless"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+              >
+
+               <TextView
+
+                   android:id="@+id/seldon8"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes8"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon8"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often8"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes8"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often8"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar8"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I forgot little things"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+          >
+
+               <TextView
+
+                   android:id="@+id/seldon9"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes9"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon9"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often9"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes9"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often9"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar9"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I use alcohol or other drugs"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+              >
+
+               <TextView
+
+                   android:id="@+id/seldon10"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes10"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon10"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often10"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes10"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often10"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar10"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I feel tired"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+               android:layout_marginTop="15dp">
+
+               <TextView
+
+                   android:id="@+id/seldon12"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes12"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon12"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often12"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes12"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often12"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar12"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="I feel tired"
+                   android:textSize="20dp"
+                   android:padding="2dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_width="320dp"
+               android:layout_height="35dp"
+               android:layout_weight="4"
+               android:layout_marginLeft="16dp"
+               android:background="@drawable/backgnd"
+               android:layout_marginTop="15dp">
+
+               <TextView
+
+                   android:id="@+id/seldon"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/bg3"
+                   android:gravity="center"
+                   android:text="Seldom"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:id="@+id/sometimes"
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/seldon"
+                   android:gravity="center"
+                   android:textColor="@color/greyspace"
+                   android:background="@color/yellow"
+                   android:text="Sometimes"
+                   android:textSize="18dp"/>
+               <TextView
+                   android:id="@+id/often"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/sometimes"
+                   android:gravity="center"
+                   android:background="@color/orange"
+                   android:text="Often"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@+id/often"
+                   android:gravity="center"
+                   android:background="@drawable/bg5"
+                   android:text="Always"
+                   android:textColor="@color/greyspace"
+                   android:textSize="18dp"/>
+
+               <SeekBar
+                   android:id="@+id/seekbar"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:indeterminate="false"
+                   android:max="40"
+                   android:progress="1"
+                   android:progressDrawable="@android:color/transparent"
+                   android:thumb="@drawable/thumb"
+                   android:thumbTint="@color/white" />
+
+
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+
+               <TextView
+                   android:id="@+id/result"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:textSize="30dp"
+                   android:textColor="@color/black"
+                   android:layout_height="50dp"/>
+
+           </LinearLayout>
+       </LinearLayout>
+
+   </ScrollView>
+   
+
+  
+
+</LinearLayout>

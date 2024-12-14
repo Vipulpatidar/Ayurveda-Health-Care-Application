@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/dustypink"
+    tools:context=".Homeremedyfever">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backtoHomepathy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backd" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/srch" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+
+                    android:src="@drawable/healthysleep" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Importance of Sleep"
+                    android:textColor="@color/greyspace"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="941dp"
+                    android:padding="20dp"
+                    android:text="Sleep is an essential part of our daily routine and is crucial for our overall health and wellbeing. Here are some of the important reasons why sleep is so important:
+
+Restores and repairs the body: During sleep, the body has a chance to restore and repair itself. This includes repairing damaged tissues and cells, consolidating memories, and regulating hormones.
+
+Improves cognitive function: Sleep plays a critical role in cognitive function, including memory consolidation, learning, and problem-solving. Adequate sleep is essential for optimal brain function, including concentration, creativity, and decision-making.
+
+Boosts immune system: Sleep is necessary for the body to produce cytokines, which are essential for fighting off infections, inflammation, and stress. A lack of sleep can lead to a weakened immune system, making individuals more vulnerable to illnesses.
+
+Improves mood and emotional regulation: Getting enough sleep can help regulate mood and emotions. Lack of sleep can contribute to irritability, anxiety, and depression.
+
+Promotes physical health: Adequate sleep is linked to a variety of physical health benefits, including a reduced risk of heart disease, stroke, obesity, diabetes, and hypertension.
+
+Enhances athletic performance: Sleep plays a critical role in athletic performance, including muscle recovery, reaction time, and coordination. Athletes who prioritize sleep often see improvements in their performance.
+
+Supports healthy aging: Sleep is essential for healthy aging. A lack of sleep has been linked to cognitive decline, memory loss, and an increased risk of developing age-related diseases.
+
+Overall, getting adequate sleep is essential for our overall health and wellbeing. It is recommended that adults get 7-9 hours of sleep per night to reap the many benefits of sleep. Prioritizing sleep and establishing healthy sleep habits can help improve our overall quality of life."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
